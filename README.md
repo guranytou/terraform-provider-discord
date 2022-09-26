@@ -1,5 +1,6 @@
 # Discord Terraform Provider
 
+fork by
 https://registry.terraform.io/providers/aequasi/discord/latest
 
 ## Resources
