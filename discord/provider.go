@@ -39,7 +39,7 @@ func Provider() *schema.Provider {
 		},
 
 		DataSourcesMap: map[string]*schema.Resource{
-			// "discord_permission":  dataSourceDiscordPermission(),
+			"discord_permission":  dataSourceDiscordPermission(),
 			"discord_color":       dataSourceDiscordColor(),
 			"discord_local_image": dataSourceDiscordLocalImage(),
 			"discord_role":        dataSourceDiscordRole(),
